@@ -34,6 +34,12 @@ requirements_rise_phenotyping.txt
 - 첫 실행 시 인터넷 연결 필요
 - 노트북은 `uv`를 우선 사용하고, 실패 시 `pip`로 대체합니다.
 
+## 고정 의존성
+
+교육 당일 PC와 Colab 런타임 차이로 인한 오류를 줄이기 위해 주요 패키지는 정확한 버전으로 설치됩니다. 핵심 버전은 `plantcv==4.11.1`, `numpy==2.2.6`, `scipy==1.15.3`, `opencv-python==4.13.0.92`, `scikit-image==0.26.0`, `scikit-learn==1.9.0`, `pandas==3.0.3`입니다.
+
+이미 열린 Colab 런타임에서 NumPy/SciPy 관련 import 오류가 발생하면 `런타임 > 런타임 다시 시작`을 실행한 뒤 0장 준비 셀부터 다시 실행합니다.
+
 ## 데이터 출처
 
 예제 데이터는 Danforth Center PlantCV 공개 튜토리얼 자료를 사용합니다. 노트북에는 2026-06-29 기준 확인한 commit SHA가 고정되어 있습니다.
