@@ -42,9 +42,3 @@ requirements_rise_phenotyping.txt
 - simple RGB workflow commit: `6e9c35d736bc31782af3e760096c03f5dbe34049`
 - supervised ML commit: `d57501166da0218a388a0f23f681a0117bf1bf76`
 - unsupervised ML commit: `4a52eb64edbaa343cc86ab9793e61de28d1dcb5a`
-
-## 강사용 배포 팁
-
-- 수업 당일에는 GitHub `main` 브랜치의 Colab 버튼 링크를 공유하면 됩니다.
-- 안정 배포본은 GitHub tag/release로 남겨두는 것을 권장합니다.
-- 큰 PPT 파일은 GitHub 일반 파일로 올리지 말고 GitHub Releases, Google Drive, 또는 Git LFS를 사용하는 편이 안전합니다.
